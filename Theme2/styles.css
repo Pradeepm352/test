@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #181c2f 0%, #232946 100%);
+  font-family: 'Montserrat', sans-serif;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-card {
+  background: rgba(36, 40, 73, 0.7);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 24px;
+  border: 1.5px solid rgba(255,255,255,0.18);
+  padding: 40px 32px 28px 32px;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00fff7;
+  box-shadow: 0 0 24px #00fff799;
+  margin-bottom: 18px;
+}
+
+.name {
+  font-size: 2.1rem;
+  font-weight: 900;
+  color: #00fff7;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.telegram-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff00cc 0%, #333399 100%);
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 32px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 12px 0 18px 0;
+  box-shadow: 0 2px 12px #ff00cc55;
+  transition: background 0.2s, transform 0.2s;
+  border: none;
+}
+.telegram-btn:hover {
+  background: linear-gradient(90deg, #333399 0%, #ff00cc 100%);
+  transform: scale(1.05);
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px 0;
+  width: 100%;
+}
+.features li {
+  background: rgba(0,0,0,0.18);
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 1px 8px #00fff733;
+  display: flex;
+  align-items: center;
+  border-left: 3px solid #ff00cc;
+}
+.emoji {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.highlight {
+  background: rgba(0,255,247,0.08);
+  border-radius: 12px;
+  padding: 16px 0 10px 0;
+  margin: 18px 0 0 0;
+  width: 100%;
+  box-shadow: 0 1px 8px #00fff733;
+  text-align: center;
+}
+.no-loss {
+  color: #ff00cc;
+  font-weight: bold;
+}
+.signals {
+  color: #00fff7;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+.accuracy {
+  background: #ff00cc;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 10px;
+  box-shadow: 0 0 8px #ff00cc99;
+}
+footer {
+  margin-top: 32px;
+  font-size: 0.95rem;
+  color: #b8b8d1;
+  text-align: center;
+}
